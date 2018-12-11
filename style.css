@@ -1,0 +1,25 @@
+.Portfolio {
+    color: teal;
+}
+
+div.left {
+    padding:28px; 
+    text-align:center; 
+    width:320px; 
+    height:320px; 
+    margin:10px; 
+    float:left; 
+    background:#ebebeb;
+    display:block
+}
+
+div.right {
+    padding:28px; 
+    text-align:center; 
+    width:320px; 
+    height:320px; 
+    margin:10px; 
+    float:right; 
+    background:#ebebeb; 
+    display:block
+}
