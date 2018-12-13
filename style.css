@@ -1,45 +1,39 @@
 h1{
     width:720px;
 }
-
-div.container {
+ div.container {
     width:750px;
 }
-
-.Portfolio {
+ .Portfolio {
     color: teal;
 }
-
 div.left {
     padding:28px; 
     text-align:center; 
     width:320px; 
-    height:320px;  
-    margin:5px;
+    height:320px; 
+    margin:10px; 
+    float:left; 
     background:#ebebeb;
     display:block;
-    margin:30px;
-    float:left;
 }
-
-.relative {
+ .relative {
     position:relative;
     background-color:teal;
     font-size: 30px;
     bottom:18px;
     color:white;
 }
-
-
+ 
 div.right {
     padding:28px; 
     text-align:center; 
     width:320px; 
     height:320px; 
+    margin:10px; 
     background:#ebebeb; 
     display:block;
     overflow:hidden;
     float:right;
-    position: relative;
-    margin-top: 30px;
+    margin-top: 10px;
 }
