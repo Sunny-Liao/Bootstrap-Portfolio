@@ -1,130 +1,176 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
-<link rel="stylesheet" href="style.css">
+<head>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <header class="clearfix feed-header" data-role="banner">
+                    <div class="compWrapper">
+                        <div class="compInnerWrapper">
+                            <div class="compContainer" id="cycler1">
+                                <div class="compPhoto compPhoto1">
+                                    <a href="https://sunny-liao.github.io/HW-Wireframe/">
+                                        <div class="Image iWithTransition">
+                                            <img src="html.png" />
+                                            <b class="compPhotoShadow"></b>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="compPhoto compPhoto2">
+                                        <a href="https://sunny-liao.github.io/Word-Guess-Game/">
+                                            <div class="Image iLoaded iWithTransition">
+                                                <img src="javascript.png" />
+                                                <b class="compPhotoShadow"></b>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <div class="compPhoto compPhoto3">
+                                    <a href="https://zachselindh.github.io/On-This-Day-Project/" class="">
+                                        <div class="Image iWithTransition">
+                                            <img src="api.jpg" />
+                                            <b class="compPhotoShadow"></b>
+                                        </div>
+                                    </a>
 
-      <header class="clearfix feed-header" data-role="banner">
-        <div class="compWrapper">
-            <div class="compInnerWrapper">
-                <div class="compContainer" id="cycler1">
-                    <div class="compPhoto compPhoto1">
-                        <a href="https://sunny-liao.github.io/HW-Wireframe/">
-                            <div class="Image iWithTransition">
-                                <img  src="html.png"/>
-                                <b class="compPhotoShadow"></b>
+
+                                </div>
+                                <div class="compPhoto compPhoto4">
+                                    <a href="https://sunny-liao.github.io/unit-4-game/">
+                                        <div class="Image iWithTransition">
+                                            <img src="jquery.png" />
+                                            <b class="compPhotoShadow"></b>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="compPhoto compPhoto5">
+                                    <a href="https://sunny-liao.github.io/Ajax/">
+                                        <div class="Image iWithTransition">
+                                            <img src="gif.gif" />
+                                            <b class="compPhotoShadow"></b>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="compPhoto compPhoto6">
+                                    <a href="#">
+                                        <div class="Image iWithTransition">
+                                            <img src="rps.jpeg" />
+                                            <b class="compPhotoShadow"></b>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="compPhoto compPhoto7">
+                                    <a href="https://sunny-liao.github.io/TriviaGame/">
+                                        <div class="Image iWithTransition">
+                                            <img src="stop.png" />
+                                            <b class="compPhotoShadow"></b>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="compPhoto compPhoto2">
-                        <a href="https://sunny-liao.github.io/Word-Guess-Game/">
-                            <div class="Image iLoaded iWithTransition">
-                                <img src="javascript.png"/>
-                                <b class="compPhotoShadow"></b>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="profile-user">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="pull-left">
+                                <img src="55.jpg" id="pic">
                             </div>
-                        </a>
-                    </div>
-                    <div class="compPhoto compPhoto3">
-                        <a href="https://zachselindh.github.io/On-This-Day-Project/" class="">
-                            <div class="Image iWithTransition">
-                                <img src="api.jpg"/>
-                                <b class="compPhotoShadow"></b>
-                            </div>
-                        </a>
-                        
+                            <br>
+                            <br>
+                            <h2 id="sunny">Sunny Liao</h2>
+                            <p id="name">
+
+                                <a onclick="javascript: window.location = 'https://github.com/Sunny-Liao';"><img
+                                        src="git.png" id="git"></a>
+                                <a
+                                    onclick="javascript: window.location = 'https://www.linkedin.com/in/sunny-liao-ba3b4383/';"><img
+                                        src="in.png" id="in"></a>
+                                <a onclick="javascript: window.location = 'mailto:sunnylia@gmail.com';"><img
+                                        src="mail.png" id="mail"></a>
+                                <a onclick="javascript: window.location = 'tel:+16147472978';"><img title="614-747-2978"
+                                        src="phone.png" id="phone"></a>
+                            </p>
+                        </div>
+                        <div class="span6">
+                            <ul class="inline user-counts-list">
+                                <li>Click <a href="https://www.slideshare.net/secret/9NZ4UvPwFtCSQI"
+                                        style="color:black">here</a> to download my resume <span class="count"></span>
+                                </li>
+                            </ul>
+                        </div>
+
 
                     </div>
-                    <div class="compPhoto compPhoto4">
-                        <a href="https://sunny-liao.github.io/unit-4-game/">
-                            <div class="Image iWithTransition">
-                                <img src="jquery.png"/>
-                                <b class="compPhotoShadow"></b>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="compPhoto compPhoto5">
-                        <a href="https://sunny-liao.github.io/Ajax/">
-                            <div class="Image iWithTransition">
-                                <img src="gif.gif"/>
-                                <b class="compPhotoShadow"></b>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="compPhoto compPhoto6">
-                        <a href="#">
-                            <div class="Image iWithTransition">
-                                <img src="rps.jpeg"/>
-                                <b class="compPhotoShadow"></b>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="compPhoto compPhoto7">
-                        <a href="https://sunny-liao.github.io/TriviaGame/">
-                            <div class="Image iWithTransition">
-                                <img src="stop.png"/>
-                                <b class="compPhotoShadow"></b>
-                            </div>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>
-    </header>
 
-    <div class="profile-user">
-            <div class="row-fluid">
-          <div class="span6">
-            <div class="pull-left">
-                <img src="55.jpg" id="pic"> 
-            </div>
-            <br>
-            <br>
-            <h2 id="sunny">Sunny Liao</h2>
-            <p id="name">
-                    
-            <a onclick="javascript: window.location = 'https://github.com/Sunny-Liao';"><img src="git.png" id="git"></a>
-            <a onclick="javascript: window.location = 'https://www.linkedin.com/in/sunny-liao-ba3b4383/';"><img src="in.png" id="in"></a>
-            <a  onclick="javascript: window.location = 'mailto:sunnylia@gmail.com';"><img src="mail.png" id="mail"></a>
-            <a onclick="javascript: window.location = 'tel:+16147472978';"><img title="614-747-2978" src="phone.png" id="phone"></a>
-            </p>
-          </div>
-          <div class="span6">
-            <ul class="inline user-counts-list">
-              <li>Click <a href="https://www.slideshare.net/secret/9NZ4UvPwFtCSQI" style="color:black">here</a> to download my resume <span class="count"></span></li>
-            </ul>
-          </div>
-        </div>
-            
-            
-        </div>
- 
-      
+        <div class="row">
+                <div class="col-sm-12">
+                    <div class="profile-user">
+                        <div class="row-fluid">
+                            
+                            <div class="pull-left">
+                                <img src="day.png" id="day" />
+                                <p>Project Name: On This Day</p>
+                                <a href="https://zachselindh.github.io/On-This-Day-Project/" style="color:black">Deployment</a><br>
+                                <br>
+                                <a href="https://github.com/ZachSelindh/On-This-Day-Project" style="color:black">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
 
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="profile-user">
+                        <div class="row-fluid">
+                            
+                            <div class="pull-left">
+                                <img src="Giphy.jpg" id="day" />
+                                <p>Project Name: On This Day</p>
+                                <a href="https://sunny-liao.github.io/Ajax/" style="color:black">Deployment</a><br>
+                                <br>
+                                <a href="https://github.com/Sunny-Liao/Ajax" style="color:black">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="profile-user">
+                        <div class="row-fluid">
+                            
+                            <div class="pull-left">
+                                <img src="RPS.png" id="day" />
+                                <p>Project Name: On This Day</p>
+                                <a href="https://sunny-liao.github.io/RPS-Multiplayer/" style="color:black">Deployment</a><br>
+                                <br>
+                                <a href="https://github.com/Sunny-Liao/RPS-Multiplayer" style="color:black">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
 
-
-
-<div class="feed-photos">
- 
-  <div class="row">
-    <div class="col-lg-2">
-      <img src="day.png" id="day"/>
-    </div>
-    <div class="col-lg-5" id="day1">
-      <p>Project Name: On This Day</p>  
-          <a href="https://zachselindh.github.io/On-This-Day-Project/" style="color:black">Deployment</a><br>
-          <br>
-          <a href="https://github.com/ZachSelindh/On-This-Day-Project" style="color:black">GitHub</a>
-    </div>
-  </div>
 </body>
+
 </html>

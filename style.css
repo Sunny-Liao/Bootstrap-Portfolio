@@ -35,6 +35,7 @@
       clear:both;
       margin-top: 15px;
       border: 4px solid white;
+      
   }
 
   #sunny {
@@ -55,10 +56,10 @@
 
   #day {
     width: 103px;
-    height:103px;
-    margin-left: 0px;
+    height:90px;
     float: left;
     margin-right: 10px;
+    
   }
 
   #day1 {
@@ -139,6 +140,8 @@
   .compPhoto1 {
     left: 0;
     top: 0;
+    width: 100%;
+    height: auto;
     -webkit-border-radius: 4px 0 0 0;
     border-radius: 4px 0 0 0;
     a, .Image, .compPhotoShadow {
@@ -150,6 +153,7 @@
   .compPhoto2 {
     left: 0;
     top: 50%;
+    
   }
   
   .compPhoto3 {
@@ -170,6 +174,7 @@
   .compPhoto5 {
     left: 60%;
     top: 50%;
+    
   }
   
   .compPhoto6 {
@@ -205,11 +210,8 @@
     }
   }
 
-  @media screen and (max-width:800px) {
-    .compWrapper, .profile-user, .feed-photos {
-    width: 100%;
-    }
-  }
+  
+
   
   
   
